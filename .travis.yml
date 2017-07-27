@@ -1,0 +1,15 @@
+language: csharp
+
+# os:
+#   - linux
+#   - osx
+
+install:
+- ./_Scripts/install.sh
+script:
+- ./_Scripts/build.sh
+
+matrix:
+  include:
+      - os: linux
+      - os: osx
