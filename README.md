@@ -1,5 +1,7 @@
 # CardExample-Unity
 
+[![Build Status](https://travis-ci.org/LoOnyBiker/CardExample-Unity.svg?branch=master)](https://travis-ci.org/LoOnyBiker/CardExample-Unity)
+
 This is a basic example demonstrating how to create the basis of a system to deal with a card game in Unity.
 
 Video of app running can be seen here:
