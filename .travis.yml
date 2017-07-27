@@ -8,7 +8,7 @@ before_install:
 - chmod a+x ./_Scripts/build.sh
 
 install:
-- ./Scripts/install.sh
+- ./_Scripts/install.sh
 
 script:
-- ./Scripts/build.sh
+- ./_Scripts/build.sh
