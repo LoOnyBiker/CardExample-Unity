@@ -9,7 +9,7 @@ download() {
   url="$BASE_URL/$HASH/$package"
 
   echo "Downloading from $url: "
-  curl -o `basename "$package"` "$url"
+  curl -o `basename "$package"` "$url" —-retry 5
 }
 
 install() {
@@ -24,6 +24,6 @@ install() {
 # of available packages, where PLATFORM is `osx` or `win`
 
 install "MacEditorInstaller/Unity-$VERSION.pkg"
-install "MacEditorTargetInstaller/UnitySetup-Windows-Support-for-Editor-$VERSION.pkg"
+#install "MacEditorTargetInstaller/UnitySetup-Windows-Support-for-Editor-$VERSION.pkg"
 #install "MacEditorTargetInstaller/UnitySetup-Mac-Support-for-Editor-$VERSION.pkg"
 #install "MacEditorTargetInstaller/UnitySetup-Linux-Support-for-Editor-$VERSION.pkg"
