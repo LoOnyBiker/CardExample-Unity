@@ -1,8 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
-using System.Collections;
 
-public class DealerUI : MonoBehaviour 
+public class DealerUI : MonoBehaviour
 {
 	private Dealer _dealer;
 
@@ -23,7 +22,7 @@ public class DealerUI : MonoBehaviour
 			StartCoroutine(_dealer.ShuffleCoroutine());
 		}
 	}
-	
+
 	public void Draw()
 	{
 		if (_dealer.DealInProgress == 0)

@@ -1,8 +1,7 @@
 ﻿using UnityEngine;
-using System.Collections;
 using System.Collections.Generic;
 
-public class CardSlot : MonoBehaviour 
+public class CardSlot : MonoBehaviour
 {
 	public readonly List<Card> CardList = new List<Card>();
 
@@ -14,14 +13,14 @@ public class CardSlot : MonoBehaviour
 	private float _positionDamp = .2f;
 
 	[Range(0.05f, 0.3f)]
-	[SerializeField] 
-	private float _rotationDamp = .2f;   
-	
+	[SerializeField]
+	private float _rotationDamp = .2f;
+
 	private void Awake()
 	{
 		GetComponent<MeshRenderer>().enabled = false;
 	}
-	
+
 	public int FaceValue()
 	{
 		int collectiveFaceValue = 0;
@@ -31,7 +30,7 @@ public class CardSlot : MonoBehaviour
 		}
 		return collectiveFaceValue;
 	}
-    
+
 	public Card TopCard()
 	{
 		if (CardList.Count > 0)
@@ -41,9 +40,9 @@ public class CardSlot : MonoBehaviour
 		else
 		{
 			return null;
-		}	
+		}
 	}
-    
+
 	public Card BottomCard()
 	{
 		if (CardList.Count > 0)
@@ -53,9 +52,9 @@ public class CardSlot : MonoBehaviour
 		else
 		{
 			return null;
-		}			
+		}
 	}
-	
+
 	public bool AddCard(Card card)
 	{
 		if (card != null)

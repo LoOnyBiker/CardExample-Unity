@@ -1,8 +1,6 @@
 ﻿using UnityEngine;
-using System.Collections;
-using System.IO;
 
-static public class DirectoryUtility 
+static public class DirectoryUtility
 {
 	static public string ExternalAssets()
 	{
@@ -10,13 +8,13 @@ static public class DirectoryUtility
 		{
 		default:
 		case RuntimePlatform.OSXEditor:
-		case RuntimePlatform.WindowsEditor:	
-			return Application.dataPath + "/../ExternalAssets/";			
+		case RuntimePlatform.WindowsEditor:
+			return Application.dataPath + "/../ExternalAssets/";
 		case RuntimePlatform.OSXPlayer:
 		case RuntimePlatform.WindowsPlayer:
-		case RuntimePlatform.IPhonePlayer:		
+		case RuntimePlatform.IPhonePlayer:
 		case RuntimePlatform.LinuxPlayer:
-			return Application.dataPath + "/ExternalAssets/";		
-		}	
-	}  
+			return Application.dataPath + "/ExternalAssets/";
+		}
+	}
 }
