@@ -1,6 +1,10 @@
 # CardExample-Unity
 
-[![Build Status](https://travis-ci.org/LoOnyBiker/CardExample-Unity.svg?branch=master)](https://travis-ci.org/LoOnyBiker/CardExample-Unity)
+-------
+
+![Image of Yaktocat](./misc/Font-Awesome-SVG-PNG/png/24/linux.png) ![Image of Yaktocat](./misc/Font-Awesome-SVG-PNG/png/24/apple.png) ![Image of Yaktocat](./misc/Font-Awesome-SVG-PNG/png/24/windows.png)[![Build Status](https://travis-ci.org/LoOnyBiker/CardExample-Unity.svg?branch=master)](https://travis-ci.org/LoOnyBiker/CardExample-Unity)
+
+-------
 
 This is a basic example demonstrating how to create the basis of a system to deal with a card game in Unity.
 
