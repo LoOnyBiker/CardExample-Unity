@@ -6,6 +6,12 @@
 
 -------
 
+# Disclaimer
+
+This repo is Fork from rygo6 and it's been amended due to show some tips and tricks with cards.
+
+-------
+
 This is a basic example demonstrating how to create the basis of a system to deal with a card game in Unity.
 
 Video of app running can be seen here:
@@ -21,11 +27,5 @@ Currently the app demonstrates these things:
 
 Technical
 - App is built in Unity 5.2.0p1
-- Currently only tested to be building and running properly for OSX Desktop x86.
-
-Usage
-1. Ensure you have git and git lfs installed. https://git-lfs.github.com
-2. Run command: git clone git@github.com:rygo6/CardExample-Unity.git
-3. Open in Unity.
-4. Click 'Assets > Build all Bundles OSX'.
-5. Click 'Play'.
+- Currently tested to be building for OSX, Linux and Windows platforms
+- Currently hasn't been tested for running properly on Linux.
