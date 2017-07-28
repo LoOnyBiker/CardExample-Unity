@@ -2,7 +2,7 @@
 
 -------
 
-![Image of Yaktocat](./misc/Font-Awesome/png/24/linux.png) ![Image of Yaktocat](./misc/Font-Awesome/png/24/apple.png) ![Image of Yaktocat](./misc/Font-Awesome/png/24/windows.png)[![Build Status](https://travis-ci.org/LoOnyBiker/CardExample-Unity.svg?branch=master)](https://travis-ci.org/LoOnyBiker/CardExample-Unity)
+![Image of Yaktocat](./misc/Font-Awesome/linux.png) ![Image of Yaktocat](./misc/Font-Awesome/apple.png) ![Image of Yaktocat](./misc/Font-Awesome/windows.png)[![Build Status](https://travis-ci.org/LoOnyBiker/CardExample-Unity.svg?branch=master)](https://travis-ci.org/LoOnyBiker/CardExample-Unity)
 
 -------
 
