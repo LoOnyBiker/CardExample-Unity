@@ -10,6 +10,10 @@ install:
 script:
 - ./Scripts/build.sh
 
+# only run builds on pushes to the master branch
+branches:
+  only:
+  - master
 
 # send email notifications when the build changes from succeeding to broken
 notifications:

@@ -26,6 +26,6 @@ Currently the app demonstrates these things:
 - Cards can be reshuffled and reset at any time.
 
 Technical
-- App is built in Unity 5.2.0p1
+- App is built in Unity 5.6.2f1
 - Currently tested to be building for OSX, Linux and Windows platforms
 - Currently hasn't been tested for running properly on Linux.
