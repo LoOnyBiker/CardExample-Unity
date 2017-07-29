@@ -1,0 +1,51 @@
+ManifestFileVersion: 0
+CRC: 4049880489
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: e595f95a91cc1137bf32de4f0b9ac414
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c1642440719609290a7e09a50a7286f4
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+Assets:
+- Assets/CardFramework/AssetBundles/Cards_rus36/7_of_spades.png
+- Assets/CardFramework/AssetBundles/Cards_rus36/ace_of_clubs.png
+- Assets/CardFramework/AssetBundles/Cards_rus36/7_of_hearts.png
+- Assets/CardFramework/AssetBundles/Cards_rus36/jack_of_hearts2.png
+- Assets/CardFramework/AssetBundles/Cards_rus36/queen_of_spades2.png
+- Assets/CardFramework/AssetBundles/Cards_rus36/jack_of_spades2.png
+- Assets/CardFramework/AssetBundles/Cards_rus36/jack_of_diamonds2.png
+- Assets/CardFramework/AssetBundles/Cards_rus36/8_of_clubs.png
+- Assets/CardFramework/AssetBundles/Cards_rus36/10_of_hearts.png
+- Assets/CardFramework/AssetBundles/Cards_rus36/king_of_spades2.png
+- Assets/CardFramework/AssetBundles/Cards_rus36/jack_of_clubs2.png
+- Assets/CardFramework/AssetBundles/Cards_rus36/9_of_diamonds.png
+- Assets/CardFramework/AssetBundles/Cards_rus36/7_of_diamonds.png
+- Assets/CardFramework/AssetBundles/Cards_rus36/7_of_clubs.png
+- Assets/CardFramework/AssetBundles/Cards_rus36/ace_of_hearts.png
+- Assets/CardFramework/AssetBundles/Cards_rus36/10_of_spades.png
+- Assets/CardFramework/AssetBundles/Cards_rus36/8_of_spades.png
+- Assets/CardFramework/AssetBundles/Cards_rus36/10_of_diamonds.png
+- Assets/CardFramework/AssetBundles/Cards_rus36/ace_of_spades2.png
+- Assets/CardFramework/AssetBundles/Cards_rus36/8_of_hearts.png
+- Assets/CardFramework/AssetBundles/Cards_rus36/ace_of_diamonds.png
+- Assets/CardFramework/AssetBundles/Cards_rus36/6_of_diamonds.png
+- Assets/CardFramework/AssetBundles/Cards_rus36/6_of_hearts.png
+- Assets/CardFramework/AssetBundles/Cards_rus36/king_of_clubs2.png
+- Assets/CardFramework/AssetBundles/Cards_rus36/10_of_clubs.png
+- Assets/CardFramework/AssetBundles/Cards_rus36/king_of_diamonds2.png
+- Assets/CardFramework/AssetBundles/Cards_rus36/6_of_spades.png
+- Assets/CardFramework/AssetBundles/Cards_rus36/8_of_diamonds.png
+- Assets/CardFramework/AssetBundles/Cards_rus36/9_of_hearts.png
+- Assets/CardFramework/AssetBundles/Cards_rus36/queen_of_hearts2.png
+- Assets/CardFramework/AssetBundles/Cards_rus36/queen_of_diamonds2.png
+- Assets/CardFramework/AssetBundles/Cards_rus36/6_of_clubs.png
+- Assets/CardFramework/AssetBundles/Cards_rus36/queen_of_clubs2.png
+- Assets/CardFramework/AssetBundles/Cards_rus36/9_of_spades.png
+- Assets/CardFramework/AssetBundles/Cards_rus36/9_of_clubs.png
+- Assets/CardFramework/AssetBundles/Cards_rus36/king_of_hearts2.png
+Dependencies: []

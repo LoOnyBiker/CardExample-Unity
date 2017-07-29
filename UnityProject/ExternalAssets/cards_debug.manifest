@@ -1,0 +1,23 @@
+ManifestFileVersion: 0
+CRC: 2118377240
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 78866ef2832a97f4b3755dbe12de5bda
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c1642440719609290a7e09a50a7286f4
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+Assets:
+- Assets/CardFramework/AssetBundles/Cards_debug/8_of_clubs.png
+- Assets/CardFramework/AssetBundles/Cards_debug/10_of_clubs.png
+- Assets/CardFramework/AssetBundles/Cards_debug/9_of_clubs.png
+- Assets/CardFramework/AssetBundles/Cards_debug/6_of_clubs.png
+- Assets/CardFramework/AssetBundles/Cards_debug/7_of_clubs.png
+- Assets/CardFramework/AssetBundles/Cards_debug/5_of_clubs.png
+- Assets/CardFramework/AssetBundles/Cards_debug/3_of_clubs.png
+- Assets/CardFramework/AssetBundles/Cards_debug/4_of_clubs.png
+Dependencies: []

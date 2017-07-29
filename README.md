@@ -8,7 +8,7 @@
 
 # Disclaimer
 
-This repo is Fork from rygo6 and it's been amended due to show some tips and tricks with cards.
+This repo is Forked from @rygo6 and it's been amended due to show you some tips and tricks with cards using patterns. For everyone who's interested in magic.
 
 -------
 

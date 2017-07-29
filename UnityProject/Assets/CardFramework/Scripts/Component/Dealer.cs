@@ -53,7 +53,7 @@ public class Dealer : MonoBehaviour
 
 	private void Awake()
 	{
-		_cardDeck.InstanatiateDeck("cards");
+		_cardDeck.InstanatiateDeck("cards_debug");
 		StartCoroutine(StackCardRangeOnSlot(0, _cardDeck.CardList.Count, _stackCardSlot));
 	}
 
@@ -96,7 +96,7 @@ public class Dealer : MonoBehaviour
 		MoveCardSlotToCardSlot(_currentCardSlot, _pickupCardSlot);
 		yield return new WaitForSeconds(.4f);
 		int halfLength = _cardDeck.CardList.Count / 2;
-		for (int i = 0; i < halfLength; ++i)
+        /*for (int i = 0; i < halfLength; ++i)
 		{
 			_leftHandCardSlot.AddCard(_pickupCardSlot.TopCard());
 		}
@@ -117,8 +117,33 @@ public class Dealer : MonoBehaviour
 				_stackCardSlot.AddCard(_leftHandCardSlot.TopCard());
 			}
 			yield return new WaitForSeconds(CardStackDelay);
-		}
-		DealInProgress--;
+		}*/
+
+        // Move all cards to the right arm
+        for (int i = 0; i < _cardDeck.CardList.Count; ++i)
+        {
+            _rightHandCardSlot.AddCard(_pickupCardSlot.BottomCard());
+        }
+        yield return new WaitForSeconds(.2f);
+        // Move bottom and top cards to left arm
+        for (int i = 0; i < halfLength; ++i)
+        {
+            Card bottom = _rightHandCardSlot.BottomCard();
+            Card top = _rightHandCardSlot.TopCard();
+
+            _leftHandCardSlot.AddCard(top);
+            _leftHandCardSlot.AddCard(bottom);
+            yield return new WaitForSeconds(.2f);
+
+            yield return new WaitForSeconds(CardStackDelay);
+        }
+        // Move all cards to stack slot back
+        for (int i = 0; i < _cardDeck.CardList.Count; ++i)
+        {
+            _stackCardSlot.AddCard(_leftHandCardSlot.BottomCard());
+        }
+
+        DealInProgress--;
     }
 
 	public IEnumerator DrawCoroutine()

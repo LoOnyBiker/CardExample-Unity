@@ -1,0 +1,67 @@
+ManifestFileVersion: 0
+CRC: 2813984962
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 1f233354a0b0fa87f0a55c790fe190cb
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c1642440719609290a7e09a50a7286f4
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+Assets:
+- Assets/CardFramework/AssetBundles/Cards_full52/10_of_diamonds.png
+- Assets/CardFramework/AssetBundles/Cards_full52/ace_of_diamonds.png
+- Assets/CardFramework/AssetBundles/Cards_full52/7_of_clubs.png
+- Assets/CardFramework/AssetBundles/Cards_full52/7_of_spades.png
+- Assets/CardFramework/AssetBundles/Cards_full52/6_of_clubs.png
+- Assets/CardFramework/AssetBundles/Cards_full52/king_of_clubs2.png
+- Assets/CardFramework/AssetBundles/Cards_full52/2_of_clubs.png
+- Assets/CardFramework/AssetBundles/Cards_full52/6_of_diamonds.png
+- Assets/CardFramework/AssetBundles/Cards_full52/8_of_spades.png
+- Assets/CardFramework/AssetBundles/Cards_full52/5_of_hearts.png
+- Assets/CardFramework/AssetBundles/Cards_full52/8_of_diamonds.png
+- Assets/CardFramework/AssetBundles/Cards_full52/6_of_hearts.png
+- Assets/CardFramework/AssetBundles/Cards_full52/ace_of_spades2.png
+- Assets/CardFramework/AssetBundles/Cards_full52/2_of_diamonds.png
+- Assets/CardFramework/AssetBundles/Cards_full52/10_of_clubs.png
+- Assets/CardFramework/AssetBundles/Cards_full52/jack_of_spades2.png
+- Assets/CardFramework/AssetBundles/Cards_full52/2_of_spades.png
+- Assets/CardFramework/AssetBundles/Cards_full52/queen_of_hearts2.png
+- Assets/CardFramework/AssetBundles/Cards_full52/3_of_clubs.png
+- Assets/CardFramework/AssetBundles/Cards_full52/king_of_spades2.png
+- Assets/CardFramework/AssetBundles/Cards_full52/7_of_hearts.png
+- Assets/CardFramework/AssetBundles/Cards_full52/jack_of_hearts2.png
+- Assets/CardFramework/AssetBundles/Cards_full52/ace_of_clubs.png
+- Assets/CardFramework/AssetBundles/Cards_full52/6_of_spades.png
+- Assets/CardFramework/AssetBundles/Cards_full52/5_of_diamonds.png
+- Assets/CardFramework/AssetBundles/Cards_full52/4_of_spades.png
+- Assets/CardFramework/AssetBundles/Cards_full52/5_of_clubs.png
+- Assets/CardFramework/AssetBundles/Cards_full52/queen_of_diamonds2.png
+- Assets/CardFramework/AssetBundles/Cards_full52/queen_of_spades2.png
+- Assets/CardFramework/AssetBundles/Cards_full52/4_of_diamonds.png
+- Assets/CardFramework/AssetBundles/Cards_full52/king_of_diamonds2.png
+- Assets/CardFramework/AssetBundles/Cards_full52/5_of_spades.png
+- Assets/CardFramework/AssetBundles/Cards_full52/10_of_spades.png
+- Assets/CardFramework/AssetBundles/Cards_full52/9_of_diamonds.png
+- Assets/CardFramework/AssetBundles/Cards_full52/3_of_diamonds.png
+- Assets/CardFramework/AssetBundles/Cards_full52/ace_of_hearts.png
+- Assets/CardFramework/AssetBundles/Cards_full52/9_of_clubs.png
+- Assets/CardFramework/AssetBundles/Cards_full52/9_of_hearts.png
+- Assets/CardFramework/AssetBundles/Cards_full52/8_of_clubs.png
+- Assets/CardFramework/AssetBundles/Cards_full52/3_of_hearts.png
+- Assets/CardFramework/AssetBundles/Cards_full52/jack_of_diamonds2.png
+- Assets/CardFramework/AssetBundles/Cards_full52/8_of_hearts.png
+- Assets/CardFramework/AssetBundles/Cards_full52/10_of_hearts.png
+- Assets/CardFramework/AssetBundles/Cards_full52/3_of_spades.png
+- Assets/CardFramework/AssetBundles/Cards_full52/4_of_clubs.png
+- Assets/CardFramework/AssetBundles/Cards_full52/4_of_hearts.png
+- Assets/CardFramework/AssetBundles/Cards_full52/king_of_hearts2.png
+- Assets/CardFramework/AssetBundles/Cards_full52/jack_of_clubs2.png
+- Assets/CardFramework/AssetBundles/Cards_full52/2_of_hearts.png
+- Assets/CardFramework/AssetBundles/Cards_full52/queen_of_clubs2.png
+- Assets/CardFramework/AssetBundles/Cards_full52/7_of_diamonds.png
+- Assets/CardFramework/AssetBundles/Cards_full52/9_of_spades.png
+Dependencies: []
